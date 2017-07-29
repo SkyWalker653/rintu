@@ -1,0 +1,79 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-04 21:08:05
+project --topLevelPackage tools.automation --projectName toolsautomation --java 6 --packaging WAR
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-04 21:09:02
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-04 21:09:33
+jpa setup --database MYSQL --provider HIBERNATE --hostName localhost --databaseName toolsautomation --userName root --password root
+// [failed] database reverse engineer --schema toolsautomation --package ~.bean --includeTables user
+web mvc setup
+// [failed] web mvc all --package ~.web
+logging setup --level DEBUG
+// [failed] database reverse engineer --schema toolsautomation --package ~.bean --includeTables user
+// [failed] web mvc all --package ~.web
+database reverse engineer --schema toolsautomation --package ~.bean --includeTables "user","svn_repository" 
+database reverse engineer --schema toolsautomation --package ~.bean
+web mvc all --package ~.web
+logging setup --level DEBUG
+database reverse engineer --schema toolsautomation --package ~.bean
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-05 09:24:53
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-06 12:47:01
+// [failed] database reverse engineer --schema toolsautomation --package ~.bean
+// [failed] database reverse engineer --schema toolsautomation --package ~.bean
+// [failed] database reverse engineer --schema toolsautomation --package ~.bean
+database reverse engineer --schema toolsautomation --package ~.bean
+database reverse engineer --schema toolsautomation --package ~.bean
+database reverse engineer --schema toolsautomation --package ~.bean
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-07 15:39:19
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-07 15:43:20
+database reverse engineer --schema toolsautomation --package ~.bean
+database reverse engineer --schema toolsautomation --package ~.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-07 15:59:01
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-07 17:03:50
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-07 17:11:38
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-08 11:49:02
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-08 14:23:57
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-08 15:56:03
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-08 15:58:30
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-10 21:33:59
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-12 19:22:31
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-15 20:48:37
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-15 20:53:29
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-15 21:09:02
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-16 00:43:09
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2016-02-26 20:58:20
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2016-02-26 21:01:12
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-04-06 12:53:59
+perform package
+perform package
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2017-07-29 04:39:52
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+database reverse engineer --schema toolsautomation --package tools.automation.bean
+addon search jdbc
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr start --bundleSymbolicName org.springframework.roo.wrapping.postgresql-jdbc4
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml
+addon install id 06

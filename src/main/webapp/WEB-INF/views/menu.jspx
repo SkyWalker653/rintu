@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_user" z="uoTSf/uIZ821ZppidzS9aO776yk=">
+            <menu:item id="i_user_list" messageCode="global_menu_list" url="/users?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4MY4uybxa60Q1G2rlI5bOwg+sm0="/>
+            <menu:item id="i_user_new" messageCode="global_menu_new" url="/users?form" z="Zv1m8u2rG+JFKcvJ+AHVVK0ey24="/>
+        </menu:category>
+        <menu:category id="c_userrolemap" z="yoUm3nQ6rNdby+KGAqqjAHjPuoI=">
+            <menu:item id="i_userrolemap_new" messageCode="global_menu_new" url="/userrolemaps?form" z="vb+Y3BUnoe9jA7JPDGZ/HPhmza4="/>
+            <menu:item id="i_userrolemap_list" messageCode="global_menu_list" url="/userrolemaps?page=1&amp;size=${empty param.size ? 10 : param.size}" z="FPQoCRObYY9+9IYfOpIpB4X1uXk="/>
+        </menu:category>
+        <menu:category id="c_menusub" z="WGGjkD/QNSJ1ixEC9eTkLDpaenc=">
+            <menu:item id="i_menusub_new" messageCode="global_menu_new" url="/menusubs?form" z="eh2PUTslPIJnji9R6QXO6a4LZjI="/>
+            <menu:item id="i_menusub_list" messageCode="global_menu_list" url="/menusubs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ZPmudOtYXjvAf+7IP7aDjbwwdnE="/>
+        </menu:category>
+        <menu:category id="c_menuprimary" z="MhApxgpUwTH3iVlqmf8GlojedCA=">
+            <menu:item id="i_menuprimary_new" messageCode="global_menu_new" url="/menuprimarys?form" z="ldLgZJ2Nxq6Kl3BWue8H4ci4x6o="/>
+            <menu:item id="i_menuprimary_list" messageCode="global_menu_list" url="/menuprimarys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YV01Qy0ICqkvJFeI7wDnYCBPuW8="/>
+        </menu:category>
+        <menu:category id="c_rolesubmenumap" z="0e/qLY/mHV0/nx/C06oMo8VrztM=">
+            <menu:item id="i_rolesubmenumap_new" messageCode="global_menu_new" url="/rolesubmenumaps?form" z="/JkpxfkIiD6ke3epVHs1eCXzC7o="/>
+            <menu:item id="i_rolesubmenumap_list" messageCode="global_menu_list" url="/rolesubmenumaps?page=1&amp;size=${empty param.size ? 10 : param.size}" z="7qC3DtSY2EtrzTlGtEfv8CSEt/4="/>
+        </menu:category>
+        <menu:category id="c_role" z="LPygIx2EuEArCzqsfpQQev0lHyc=">
+            <menu:item id="i_role_new" messageCode="global_menu_new" url="/roles?form" z="WNB2HvnzvtbOA3r7qL1gqrUOq8g="/>
+            <menu:item id="i_role_list" messageCode="global_menu_list" url="/roles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="DVFtqj4xcHbEiJh6bgI7Tyre3ec="/>
+        </menu:category>
+        <menu:category id="c_menudashboard" z="9l2PWS49fYR5xtK/EogJ0cXg37o=">
+            <menu:item id="i_menudashboard_list" messageCode="global_menu_list" url="/menudashboards?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ittlergUkHNiWuh6R76BDX8YuaM="/>
+        </menu:category>
+        <menu:category id="c_roledashboardmenumap" z="kxGFiXE9JuALKcHJoCDDJ1Rvra0=">
+            <menu:item id="i_roledashboardmenumap_new" messageCode="global_menu_new" url="/roledashboardmenumaps?form" z="4t20kbnKsj3bm2GKS0/XJ2FLLwU="/>
+            <menu:item id="i_roledashboardmenumap_list" messageCode="global_menu_list" url="/roledashboardmenumaps?page=1&amp;size=${empty param.size ? 10 : param.size}" z="z8PyTOgwwfuSHXSnCP/BdW8jNko="/>
+        </menu:category>
+    </menu:menu>
+</div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="tb/server/status">
+		<put-attribute name="body" value="/WEB-INF/views/tb/serverstatus.jsp" />
+	</definition>
+	
+	<definition extends="default" name="tb/instance/create">
+		<put-attribute name="body" value="/WEB-INF/views/tb/instancecreate.jsp" />
+	</definition>
+	
+	<definition extends="default" name="tb/instance/list">
+		<put-attribute name="body" value="/WEB-INF/views/tb/instancelist.jsp" />
+	</definition>
+	
+</tiles-definitions>

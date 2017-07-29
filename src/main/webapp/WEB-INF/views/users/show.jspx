@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_tools_automation_bean_User" object="${user}" path="/users" z="S+gZYTY/Vf4W8CTCIfABEnQiykY=">
+        <field:display field="fullName" id="s_tools_automation_bean_User_fullName" object="${user}" z="JDM0x2dbq6wo5qDgLLKdf7NDP2w="/>
+        <field:display field="sapCode" id="s_tools_automation_bean_User_sapCode" object="${user}" z="hZP9Jqggbdw+D3nzSRyvmIrpZgk="/>
+        <field:display field="emailId" id="s_tools_automation_bean_User_emailId" object="${user}" z="LCcyTujh9NFn9KVlVjl1aaeIpv4="/>
+        <field:display field="phoneNumber" id="s_tools_automation_bean_User_phoneNumber" object="${user}" z="1xDkf579PMgPCCt6jzXu7m/tCGc="/>
+        <field:display field="status" id="s_tools_automation_bean_User_status" object="${user}" z="6O7ZFNqGH+XhI1/CziPyz0869EM="/>
+        <field:display field="userAuthentication" id="s_tools_automation_bean_User_userAuthentication" object="${user}" z="Q463YpdPsItdfIwRpueIQ9zXN2c="/>
+        <field:display field="createdBy" id="s_tools_automation_bean_User_createdBy" object="${user}" z="5+w9xnvIcaZQjAQs4NNSSW4ql8s="/>
+        <field:display date="true" dateTimePattern="${user_createdon_date_format}" field="createdOn" id="s_tools_automation_bean_User_createdOn" object="${user}" z="+3ZAupE9gogbrHaIFFonSS2VB48="/>
+        <field:display field="loginId" id="s_tools_automation_bean_User_loginId" object="${user}" z="Ynk0WZ6SJWa1HQ0/9WG7doT9eIk="/>
+        <field:display field="password" id="s_tools_automation_bean_User_password" object="${user}" z="ugbRz3iSwPYEB3HanNsxNr8yXBU="/>
+        <field:display field="designation" id="s_tools_automation_bean_User_designation" object="${user}" z="z9LhlMZtZW3fWS8YUvmyDH7tcT4="/>
+        <field:display field="projectCode" id="s_tools_automation_bean_User_projectCode" object="${user}" z="BWtXrOg5nG4VoQKAVtT9+GSuEVU="/>
+        <field:display field="projectName" id="s_tools_automation_bean_User_projectName" object="${user}" z="x7dCFCTo8AClHCv+MexVaAaT5GA="/>
+    </page:show>
+</div>

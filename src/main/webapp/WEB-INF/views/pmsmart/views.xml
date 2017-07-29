@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="pmsmart/dashboard">
+		<put-attribute name="body" value="/WEB-INF/views/pmsmart/dashboard.jsp" />
+	</definition>
+	
+	<definition extends="default" name="pmsmart/project/create">
+		<put-attribute name="body" value="/WEB-INF/views/pmsmart/projectcreate.jsp" />
+	</definition>
+	
+	<definition extends="default" name="pmsmart/project/list">
+		<put-attribute name="body" value="/WEB-INF/views/pmsmart/projectlist.jsp" />
+	</definition>
+	
+	<definition extends="default" name="pmsmart/request/access">
+		<put-attribute name="body" value="/WEB-INF/views/pmsmart/accesscreate.jsp" />
+	</definition>
+	
+	<definition extends="default" name="pmsmart/request/list">
+		<put-attribute name="body" value="/WEB-INF/views/pmsmart/accesslist.jsp" />
+	</definition>
+	
+</tiles-definitions>

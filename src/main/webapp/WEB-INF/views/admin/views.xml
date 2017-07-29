@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="admin/dashboard">
+		<put-attribute name="body" value="/WEB-INF/views/admin/dashboard.jsp" />
+	</definition>
+	
+	<definition extends="default" name="admin/user/list">
+		<put-attribute name="body" value="/WEB-INF/views/admin/userlist.jsp" />
+	</definition>
+	
+	<definition extends="default" name="admin/user/edit">
+		<put-attribute name="body" value="/WEB-INF/views/admin/useredit.jsp" />
+	</definition>
+	
+	<definition extends="default" name="admin/role/list">
+		<put-attribute name="body" value="/WEB-INF/views/admin/rolelist.jsp" />
+	</definition>
+	
+	<definition extends="default" name="admin/role/new">
+		<put-attribute name="body" value="/WEB-INF/views/admin/newrole.jsp" />
+	</definition>
+	
+	<definition extends="default" name="admin/role/edit">
+		<put-attribute name="body" value="/WEB-INF/views/admin/editrole.jsp" />
+	</definition>
+	
+	<definition extends="default" name="admin/dashboardmenu/list">
+		<put-attribute name="body" value="/WEB-INF/views/admin/dashboardlist.jsp" />
+	</definition>
+	
+	<definition extends="default" name="admin/server/list">
+		<put-attribute name="body" value="/WEB-INF/views/admin/serverlist.jsp" />
+	</definition>
+	
+	<definition extends="default" name="admin/svn/cleanup">
+		<put-attribute name="body" value="/WEB-INF/views/admin/svncleanup.jsp" />
+	</definition>
+	
+	<definition extends="default" name="admin/pendingapproval/list">
+		<put-attribute name="body" value="/WEB-INF/views/admin/pendingapproval.jsp" />
+	</definition>
+
+	<definition extends="default" name="admin/myrequest/list">
+		<put-attribute name="body" value="/WEB-INF/views/admin/myrequest.jsp" />
+	</definition>
+
+	<definition extends="default" name="admin/pei/template">
+		<put-attribute name="body" value="/WEB-INF/views/admin/peitemplate.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>

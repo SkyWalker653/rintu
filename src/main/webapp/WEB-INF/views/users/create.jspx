@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_tools_automation_bean_User" modelAttribute="user" path="/users" render="${empty dependencies}" z="8hSvfhbd+FyaZklvc0Q81+JnFXM=">
+        <field:input field="fullName" id="c_tools_automation_bean_User_fullName" required="true" z="v9sou68DPAmCJQ//hG6rcQrJEuE="/>
+        <field:input field="sapCode" id="c_tools_automation_bean_User_sapCode" required="true" z="S5yDWHJ2uIns0yrSKbhGasv7Y3s="/>
+        <field:input field="emailId" id="c_tools_automation_bean_User_emailId" required="true" validationMessageCode="field_invalid_email" z="tOdw4RoN/ZeYimzzaSEJmLtjPVY="/>
+        <field:input field="phoneNumber" id="c_tools_automation_bean_User_phoneNumber" z="6tiC73CovjdJnCblSQ6NrLcmBOc="/>
+        <field:input field="status" id="c_tools_automation_bean_User_status" required="true" z="ftwyZPQogIijjCqKTDN2hrdYaes="/>
+        <field:input field="userAuthentication" id="c_tools_automation_bean_User_userAuthentication" required="true" z="+b4rapAigMOvm/779sfaTbb3QvE="/>
+        <field:input field="createdBy" id="c_tools_automation_bean_User_createdBy" required="true" z="hgLYxogB3vBnKJif+Ko3osSZHPY="/>
+        <field:datetime dateTimePattern="${user_createdon_date_format}" field="createdOn" id="c_tools_automation_bean_User_createdOn" required="true" z="XDnKYEx098DQNK9JWp4H3VrKV+4="/>
+        <field:input field="loginId" id="c_tools_automation_bean_User_loginId" required="true" z="OEpF+yjx3fm0bb6EbhhK+ad3r08="/>
+        <field:input field="password" id="c_tools_automation_bean_User_password" z="9l1cpsEI6IptCXLSTlyEU9vtPi8="/>
+        <field:simple field="svnRepositories" id="c_tools_automation_bean_User_svnRepositories" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Repository" z="Stwyx/N9od2lKvHnW0yBGWtZiYs="/>
+        <field:simple field="userRoleMaps" id="c_tools_automation_bean_User_userRoleMaps" messageCode="entity_reference_not_managed" messageCodeAttribute="User Role Map" z="A06GukEZXKYW49/wnUiFqAjQWXI="/>
+        <field:simple field="svnRepositories1" id="c_tools_automation_bean_User_svnRepositories1" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Repository" z="hI6O6iTJPKYBRNMjj5wVFdd00y4="/>
+        <field:simple field="svnRepositories2" id="c_tools_automation_bean_User_svnRepositories2" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Repository" z="TIvxsr/etlIrLCKeFcflUczfP3A="/>
+        <field:simple field="svnRepositories3" id="c_tools_automation_bean_User_svnRepositories3" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Repository" z="27059wIOodNtfct3OuJPZuULXhg="/>
+        <field:simple field="repositoryGroupUserMaps" id="c_tools_automation_bean_User_repositoryGroupUserMaps" messageCode="entity_reference_not_managed" messageCodeAttribute="Repository Group User Map" z="jJtSYWL9ThUY9SizuEsNoPmSX3U="/>
+        <field:simple field="repositoryUserMaps" id="c_tools_automation_bean_User_repositoryUserMaps" messageCode="entity_reference_not_managed" messageCodeAttribute="Repository User Map" z="+aglZ2S5Tc/N8GhOKqmcJ2Qx/5k="/>
+        <field:input field="designation" id="c_tools_automation_bean_User_designation" z="C0tJcY/4ngMxVC1Rp+h7TmYlpNc="/>
+        <field:input field="projectCode" id="c_tools_automation_bean_User_projectCode" z="DhbWkeIt5BJNta1gpSbcCoRDI0o="/>
+        <field:input field="projectName" id="c_tools_automation_bean_User_projectName" z="BjC7jm1JHDp/QPaXKARpI7QlO+A="/>
+        <field:simple field="pmsmartProjects" id="c_tools_automation_bean_User_pmsmartProjects" messageCode="entity_reference_not_managed" messageCodeAttribute="Pmsmart Project" z="fRZ7Q/ryIzaK4TOi9DkE1nNs5Y8="/>
+        <field:simple field="pmsmartProjects1" id="c_tools_automation_bean_User_pmsmartProjects1" messageCode="entity_reference_not_managed" messageCodeAttribute="Pmsmart Project" z="tI9rgnx7G8UhK6Lok2+V81kJ+c4="/>
+        <field:simple field="pmsmartProjects2" id="c_tools_automation_bean_User_pmsmartProjects2" messageCode="entity_reference_not_managed" messageCodeAttribute="Pmsmart Project" z="Rz8iBmwLil9/8n7kOdynFfl5Zt4="/>
+        <field:simple field="pmsmartProjects3" id="c_tools_automation_bean_User_pmsmartProjects3" messageCode="entity_reference_not_managed" messageCodeAttribute="Pmsmart Project" z="ms7PmnQqnhU7l1a5Fqj4uxOJTUQ="/>
+        <field:simple field="svnRepositories4" id="c_tools_automation_bean_User_svnRepositories4" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Repository" z="tKpQJzWf4O3irBuuRXx6wNFqsaY="/>
+        <field:simple field="svnRequestFileRestorations" id="c_tools_automation_bean_User_svnRequestFileRestorations" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request File Restoration" z="R0GLwJuyq27pdqPHw3Pw9qs3svw="/>
+        <field:simple field="svnRequestFileRestorations1" id="c_tools_automation_bean_User_svnRequestFileRestorations1" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request File Restoration" z="V2lUHG1Sy7PuNWDMmGT6BXYloag="/>
+        <field:simple field="svnRequestRepositoryAccesses" id="c_tools_automation_bean_User_svnRequestRepositoryAccesses" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Access" z="f2fpKhPicDQVCsFfodlxrVcd3eo="/>
+        <field:simple field="svnRequestRepositoryAccesses1" id="c_tools_automation_bean_User_svnRequestRepositoryAccesses1" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Access" z="6TYl29FxBLs6q9TXAxFByMoXVIY="/>
+        <field:simple field="svnRequestRepositoryMigrations" id="c_tools_automation_bean_User_svnRequestRepositoryMigrations" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Migration" z="dm49YgVQyB/tYFRjzMTikuJmUIY="/>
+        <field:simple field="svnRequestRepositoryMigrations1" id="c_tools_automation_bean_User_svnRequestRepositoryMigrations1" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Migration" z="S8EB8jpySck3pE9es0twayMaYnk="/>
+        <field:simple field="svnRequestRepositoryRestorations" id="c_tools_automation_bean_User_svnRequestRepositoryRestorations" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Restoration" z="OSJsDbglR4al9Ef+cV75wY1uPRc="/>
+        <field:simple field="svnRequestRepositoryRestorations1" id="c_tools_automation_bean_User_svnRequestRepositoryRestorations1" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Restoration" z="8UTxZ8lyHxRRfznLZ5hVQJhQErk="/>
+        <field:simple field="svnRequestFileRestorations2" id="c_tools_automation_bean_User_svnRequestFileRestorations2" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request File Restoration" z="cKWA86OH9I0y4sgzlnDBQnnjYQ0="/>
+        <field:simple field="svnRequestRepositoryAccesses2" id="c_tools_automation_bean_User_svnRequestRepositoryAccesses2" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Access" z="ihN2PUEBT/1n7aiLZA8gwiz5Lys="/>
+        <field:simple field="svnRequestRepositoryMigrations2" id="c_tools_automation_bean_User_svnRequestRepositoryMigrations2" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Migration" z="wQmshou28/nWAHIdjQhs1B26OwE="/>
+        <field:simple field="svnRequestRepositoryMigrations3" id="c_tools_automation_bean_User_svnRequestRepositoryMigrations3" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Migration" z="ivCfaP0RvlHVxE/vsoyh9RkQdn8="/>
+        <field:simple field="svnRequestRepositoryMigrations4" id="c_tools_automation_bean_User_svnRequestRepositoryMigrations4" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Migration" z="ChMHRJhcwSLIqtnvlj/D0Omeejk="/>
+        <field:simple field="svnRequestRepositoryMigrations5" id="c_tools_automation_bean_User_svnRequestRepositoryMigrations5" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Migration" z="e7FQINv4zh9SZ6kSmMMDduAy5is="/>
+        <field:simple field="svnRequestRepositoryRestorations2" id="c_tools_automation_bean_User_svnRequestRepositoryRestorations2" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Restoration" z="e6Vk7qV80E5TSqZ4oI0JKqJq2Mg="/>
+        <field:simple field="svnRequestRepositoryRestorations3" id="c_tools_automation_bean_User_svnRequestRepositoryRestorations3" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Restoration" z="ZulVjTAYGhc49rAPUF+zXjOZ4TI="/>
+        <field:simple field="svnRequestRepositoryRestorations4" id="c_tools_automation_bean_User_svnRequestRepositoryRestorations4" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Restoration" z="IwQVWB1jQZWTY+goeFpFZCBFGlQ="/>
+        <field:simple field="svnRequestRepositoryRestorations5" id="c_tools_automation_bean_User_svnRequestRepositoryRestorations5" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Request Repository Restoration" z="rgeMyff8l/wPsG7kMepPGn0HNe4="/>
+        <field:simple field="pmsmartAccessRequests" id="c_tools_automation_bean_User_pmsmartAccessRequests" messageCode="entity_reference_not_managed" messageCodeAttribute="Pmsmart Access Request" z="joH+LqJ4tU86KBENqYccuvg9/jU="/>
+        <field:simple field="pmsmartAccessRequests1" id="c_tools_automation_bean_User_pmsmartAccessRequests1" messageCode="entity_reference_not_managed" messageCodeAttribute="Pmsmart Access Request" z="0UnzTJmuwY8Sa9f6y9iqevkV0Fk="/>
+        <field:simple field="pmsmartProjects4" id="c_tools_automation_bean_User_pmsmartProjects4" messageCode="entity_reference_not_managed" messageCodeAttribute="Pmsmart Project" z="UGlIvmiECfsdFe5/I/WZDuuOHFU="/>
+        <field:simple field="svnRepositories5" id="c_tools_automation_bean_User_svnRepositories5" messageCode="entity_reference_not_managed" messageCodeAttribute="Svn Repository" z="mQK9ZVSjzjQlj76s7N0zB6wcMfg="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_tools_automation_bean_User" render="${not empty dependencies}" z="bVOcJGMLIG1mymNTjLV2KijxXUk="/>
+</div>

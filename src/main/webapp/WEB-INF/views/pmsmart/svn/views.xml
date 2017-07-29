@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="svn/dashboard">
+		<put-attribute name="body" value="/WEB-INF/views/svn/dashboard.jsp" />
+	</definition>
+	<definition extends="default" name="svn/repository/list">
+		<put-attribute name="body" value="/WEB-INF/views/svn/repositorylist.jsp" />
+	</definition>
+	<definition extends="default" name="svn/repository/create">
+		<put-attribute name="body" value="/WEB-INF/views/svn/repositorycreate.jsp" />
+	</definition>
+	<definition extends="default" name="svn/repository/edit">
+		<put-attribute name="body" value="/WEB-INF/views/svn/repositoryedit.jsp" />
+	</definition>
+	
+	<definition extends="default" name="svn/request/access">
+		<put-attribute name="body" value="/WEB-INF/views/svn/requestaccess.jsp" />
+	</definition>
+	
+	<definition extends="default" name="svn/request/migration">
+		<put-attribute name="body" value="/WEB-INF/views/svn/requestmigration.jsp" />
+	</definition>
+	
+	<definition extends="default" name="svn/restoration/file">
+		<put-attribute name="body" value="/WEB-INF/views/svn/restorationfile.jsp" />
+	</definition>
+	
+	<definition extends="default" name="svn/restoration/repository">
+		<put-attribute name="body" value="/WEB-INF/views/svn/restorationrepository.jsp" />
+	</definition>
+	
+</tiles-definitions>
